@@ -406,10 +406,33 @@ video {
   .nav-toggle {
     display: none;
   }
+
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .features h2 {
+    color: #f9fafb;
+    font-size: 40px;
+    font-weight: 250;
+    line-height: 64px; /* 160% */
+  }
+  .container h2 {
+  }
+  .services-layout {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+    gap: 16px;
+  }
+  .service-item {
+    flex-direction: row;
+    text-align: center;
+  }
+  .service-item-text {
+    flex-grow: 1;
+  }
 }
 
 /* DESKTOP - Large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
-
 }
-

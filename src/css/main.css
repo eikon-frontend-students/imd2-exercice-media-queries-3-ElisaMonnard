@@ -422,9 +422,7 @@ video {
   }
   .cta-button {
     font-size: 17px;
-    border-radius: 8px;
     font-weight: 700;
-    display: inline-flex;
     padding: 15px 30px;
     justify-content: center;
     align-items: center;

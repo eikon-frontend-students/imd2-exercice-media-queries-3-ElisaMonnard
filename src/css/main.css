@@ -459,6 +459,13 @@ video {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
 }
 
 /* DESKTOP - Large screens (1024px and up) */

@@ -407,6 +407,30 @@ video {
     display: none;
   }
 
+  .nav-brand h1 {
+    font-size: 24px;
+  }
+  .hero-content h1 {
+    font-size: 35px;
+    font-weight: 250;
+    line-height: 56px; /* 160% */
+  }
+  .hero-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px; /* 160% */
+  }
+  .cta-button {
+    font-size: 17px;
+    border-radius: 8px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+
   .features-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;

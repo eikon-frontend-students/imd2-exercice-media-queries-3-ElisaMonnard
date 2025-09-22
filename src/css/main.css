@@ -476,6 +476,10 @@ video {
 
 /* DESKTOP - Large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
   .footer-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

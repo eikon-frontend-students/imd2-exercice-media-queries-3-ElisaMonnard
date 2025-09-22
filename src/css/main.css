@@ -433,6 +433,10 @@ video {
     text-align: left;
     flex-grow: 1;
   }
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
 
 /* DESKTOP - Large screens (1024px and up) */

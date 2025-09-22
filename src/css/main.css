@@ -466,6 +466,16 @@ video {
     margin-bottom: 32px;
     text-align: center;
   }
+  .footer-section {
+    text-align: left;
+  }
+  .footer-section h3 {
+    font-size: 19px;
+  }
+
+  .footer-section p {
+    font-size: 16px;
+  }
 }
 
 /* DESKTOP - Large screens (1024px and up) */

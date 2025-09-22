@@ -429,6 +429,8 @@ video {
     text-align: center;
   }
   .service-item-text {
+    justify-items: flex-start;
+    text-align: left;
     flex-grow: 1;
   }
 }
